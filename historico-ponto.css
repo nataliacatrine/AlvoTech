@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    margin: 0;
+    background-color:rgb(255, 255, 255);
+}
+.cabecalho{
+    background-color: rgb(70, 23, 125, 1);
+    width: 100%;
+    height: 150px;
+    
+}
+.cabecalho__logo{
+    width:260px;
+}
+.voltar{
+    margin: 25px 0 0 50px;
+    width: 50px;
+}
+#titulo{
+    font-size: 2rem;
+    font-family: 'Concert One', sans-serif;;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.data{
+    display: flex;
+    justify-content: center;
+}
+.data__div{
+    background-color: rgb(70, 23, 125, 1);
+    height: 6.25rem;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.data__inicio{
+    color: white;
+}
+.data__input{
+    color:rgb(0, 0, 0);
+    background-color: rgb(206, 200, 200, 1);
+    padding: 1.1rem 4.15625rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+button{
+    color: white;
+    background-color: rgb(70, 23, 125, 1);
+    border-style: none;
+    border-radius: 10px;
+    width: 14rem;
+}
+.button{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.3rem;
+    height: 2.3rem;
+}
+.data__inicio, .data__input,  button{
+    font-family: 'Montserrat', sans-serif;
+}
